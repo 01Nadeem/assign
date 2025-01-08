@@ -1,0 +1,216 @@
+0000.052 (R) [notice] Looking for db archive: file name: backup_2025-01-08-0735_Ucchvas_c61273b8d9d9-db.gz
+0000.053 (R) [notice] Archive is expected to be size: 1148.7 KB: OK
+0000.059 (R) [notice] Looking for mu-plugins archive: file name: backup_2025-01-08-0735_Ucchvas_c61273b8d9d9-mu-plugins.zip
+0000.060 (R) [notice] Archive is expected to be size: 0.8 KB: OK
+0000.063 (R) [notice] Looking for plugins archive: file name: backup_2025-01-08-0735_Ucchvas_c61273b8d9d9-plugins.zip
+0000.064 (R) [notice] Archive is expected to be size: 45390.8 KB: OK
+0000.066 (R) [notice] Looking for themes archive: file name: backup_2025-01-08-0735_Ucchvas_c61273b8d9d9-themes.zip
+0000.067 (R) [notice] Archive is expected to be size: 14987.3 KB: OK
+0000.070 (R) [notice] Looking for uploads archive: file name: backup_2025-01-08-0735_Ucchvas_c61273b8d9d9-uploads.zip
+0000.071 (R) [notice] Archive is expected to be size: 27039.1 KB: OK
+0000.075 (R) [notice] Looking for others archive: file name: backup_2025-01-08-0735_Ucchvas_c61273b8d9d9-others.zip
+0000.076 (R) [notice] Archive is expected to be size: 1399.7 KB: OK
+0000.079 (R) [notice] Will not delete any archives after unpacking them, because there was no cloud storage for this backup
+0000.082 (R) [notice] Unpacking backup... (backup_2025-01-08-0735_Ucchvas_c61273b8d9d9-db.gz, 1.1 Mb)
+0000.087 (R) [notice] Restoring the database (on a large site this can take a long time - if it times out (which can happen if your web hosting company has configured your hosting to limit resources) then you should use a different method, such as phpMyAdmin)...
+0000.157 (R) [notice] Enabling Maintenance mode&#8230;
+0000.180 (R) [notice] Backup of: https://ucchvas.mnm-staging.com
+0000.197 (R) [notice] Content URL: https://ucchvas.mnm-staging.com/wp-content
+0000.197 (R) [notice] Uploads URL: https://ucchvas.mnm-staging.com/wp-content/uploads
+0000.197 (R) [notice] Old table prefix: hpfc_
+0000.197 (R) [notice] Old ABSPATH: /home/k82f5f370hle/public_html/ucchvas.mnm-staging.com/
+0000.197 (R) [notice] UpdraftPlus plugin slug: updraftplus/updraftplus.php
+0000.197 (R) [notice] Site information: multisite = 0
+0000.197 (R) [notice] Site information: sql_mode = NO_ENGINE_SUBSTITUTION
+0000.199 (R) [notice] New table prefix: d8_
+0000.202 (R) [notice] Processing table (InnoDB):  hpfc_options - will restore as: d8_options
+0000.354 (R) [notice] Atomic restore: dropping original table (wp_options)
+0000.360 (R) [notice] Atomic restore: renaming new table (d8_options) to final table name (wp_options)
+0000.605 (R) [notice] Table prefix has changed: changing option table field(s) accordingly: OK
+0000.609 (R) [notice] Elegant themes theme builder plugin data detected: resetting temporary folder
+0000.629 (R) [notice] Search and replacing table: wp_options: rows: 478
+0000.744 (R) [notice] Processing table (InnoDB):  hpfc_users - will restore as: d8_users
+0000.776 (R) [notice] Atomic restore: dropping original table (wp_users)
+0000.781 (R) [notice] Atomic restore: renaming new table (d8_users) to final table name (wp_users)
+0000.804 (R) [notice] Search and replacing table: wp_users: rows: 2
+0000.807 (R) [notice] Processing table (InnoDB):  hpfc_usermeta - will restore as: d8_usermeta
+0000.845 (R) [notice] Atomic restore: dropping original table (wp_usermeta)
+0000.852 (R) [notice] Atomic restore: renaming new table (d8_usermeta) to final table name (wp_usermeta)
+0000.870 (R) [notice] Table prefix has changed: changing usermeta table field(s) accordingly: OK
+0000.907 (R) [notice] Search and replacing table: wp_usermeta: rows: 51
+0000.911 (R) [notice] Processing table (InnoDB):  hpfc_commentmeta - will restore as: d8_commentmeta
+0000.962 (R) [notice] Atomic restore: dropping original table (wp_commentmeta)
+0000.970 (R) [notice] Atomic restore: renaming new table (d8_commentmeta) to final table name (wp_commentmeta)
+0001.006 (R) [notice] Search and replacing table: wp_commentmeta: rows: 0
+0001.006 (R) [notice] Processing table (InnoDB):  hpfc_comments - will restore as: d8_comments
+0001.055 (R) [notice] Atomic restore: dropping original table (wp_comments)
+0001.063 (R) [notice] Atomic restore: renaming new table (d8_comments) to final table name (wp_comments)
+0001.090 (R) [notice] Search and replacing table: wp_comments: rows: 1
+0001.092 (R) [notice] Processing table (InnoDB):  hpfc_links - will restore as: d8_links
+0001.117 (R) [notice] Atomic restore: dropping original table (wp_links)
+0001.122 (R) [notice] Atomic restore: renaming new table (d8_links) to final table name (wp_links)
+0001.148 (R) [notice] Search and replacing table: wp_links: rows: 0
+0001.148 (R) [notice] Processing table (InnoDB):  hpfc_postmeta - will restore as: d8_postmeta
+0001.595 (R) [notice] Atomic restore: dropping original table (wp_postmeta)
+0001.601 (R) [notice] Atomic restore: renaming new table (d8_postmeta) to final table name (wp_postmeta)
+0001.676 (R) [notice] Search and replacing table: wp_postmeta: rows: 420
+0003.442 (R) [notice] Processing table (InnoDB):  hpfc_posts - will restore as: d8_posts
+0003.564 (R) [notice] Database queries processed: 50 in 3.46 seconds
+0003.835 (R) [notice] Atomic restore: dropping original table (wp_posts)
+0003.842 (R) [notice] Atomic restore: renaming new table (d8_posts) to final table name (wp_posts)
+0003.879 (R) [notice] Search and replacing table: wp_posts: rows: 640
+0004.592 (R) [notice] Processing table (InnoDB):  hpfc_term_relationships - will restore as: d8_term_relationships
+0004.623 (R) [notice] Atomic restore: dropping original table (wp_term_relationships)
+0004.626 (R) [notice] Atomic restore: renaming new table (d8_term_relationships) to final table name (wp_term_relationships)
+0004.636 (R) [notice] Skipping this table: data in this table (wp_term_relationships) should not be search/replaced
+0004.637 (R) [notice] Processing table (InnoDB):  hpfc_term_taxonomy - will restore as: d8_term_taxonomy
+0004.667 (R) [notice] Atomic restore: dropping original table (wp_term_taxonomy)
+0004.672 (R) [notice] Atomic restore: renaming new table (d8_term_taxonomy) to final table name (wp_term_taxonomy)
+0004.704 (R) [notice] Search and replacing table: wp_term_taxonomy: rows: 7
+0004.706 (R) [notice] Processing table (InnoDB):  hpfc_termmeta - will restore as: d8_termmeta
+0004.781 (R) [notice] Atomic restore: dropping original table (wp_termmeta)
+0004.788 (R) [notice] Atomic restore: renaming new table (d8_termmeta) to final table name (wp_termmeta)
+0004.816 (R) [notice] Search and replacing table: wp_termmeta: rows: 0
+0004.817 (R) [notice] Processing table (InnoDB):  hpfc_terms - will restore as: d8_terms
+0004.865 (R) [notice] Atomic restore: dropping original table (wp_terms)
+0004.872 (R) [notice] Atomic restore: renaming new table (d8_terms) to final table name (wp_terms)
+0004.907 (R) [notice] Search and replacing table: wp_terms: rows: 7
+0004.908 (R) [notice] Processing table (InnoDB):  hpfc_actionscheduler_actions - will restore as: d8_actionscheduler_actions
+0004.943 (R) [notice] Atomic restore: dropping original table (wp_actionscheduler_actions)
+0004.944 (R) [notice] Atomic restore: renaming new table (d8_actionscheduler_actions) to final table name (wp_actionscheduler_actions)
+0004.972 (R) [notice] Search and replacing table: wp_actionscheduler_actions: rows: 20
+0004.974 (R) [notice] Processing table (InnoDB):  hpfc_actionscheduler_claims - will restore as: d8_actionscheduler_claims
+0005.000 (R) [notice] Atomic restore: dropping original table (wp_actionscheduler_claims)
+0005.001 (R) [notice] Atomic restore: renaming new table (d8_actionscheduler_claims) to final table name (wp_actionscheduler_claims)
+0005.024 (R) [notice] Search and replacing table: wp_actionscheduler_claims: rows: 0
+0005.024 (R) [notice] Processing table (InnoDB):  hpfc_actionscheduler_groups - will restore as: d8_actionscheduler_groups
+0005.054 (R) [notice] Atomic restore: dropping original table (wp_actionscheduler_groups)
+0005.054 (R) [notice] Atomic restore: renaming new table (d8_actionscheduler_groups) to final table name (wp_actionscheduler_groups)
+0005.075 (R) [notice] Search and replacing table: wp_actionscheduler_groups: rows: 2
+0005.076 (R) [notice] Processing table (InnoDB):  hpfc_actionscheduler_logs - will restore as: d8_actionscheduler_logs
+0005.103 (R) [notice] Atomic restore: dropping original table (wp_actionscheduler_logs)
+0005.103 (R) [notice] Atomic restore: renaming new table (d8_actionscheduler_logs) to final table name (wp_actionscheduler_logs)
+0005.126 (R) [notice] Search and replacing table: wp_actionscheduler_logs: rows: 54
+0005.129 (R) [notice] Processing table (InnoDB):  hpfc_e_events - will restore as: d8_e_events
+0005.156 (R) [notice] Atomic restore: dropping original table (wp_e_events)
+0005.156 (R) [notice] Atomic restore: renaming new table (d8_e_events) to final table name (wp_e_events)
+0005.179 (R) [notice] Search and replacing table: wp_e_events: rows: 1
+0005.181 (R) [notice] Processing table (InnoDB):  hpfc_e_submissions - will restore as: d8_e_submissions
+0005.220 (R) [notice] Atomic restore: dropping original table (wp_e_submissions)
+0005.221 (R) [notice] Atomic restore: renaming new table (d8_e_submissions) to final table name (wp_e_submissions)
+0005.244 (R) [notice] Search and replacing table: wp_e_submissions: rows: 0
+0005.245 (R) [notice] Processing table (InnoDB):  hpfc_e_submissions_actions_log - will restore as: d8_e_submissions_actions_log
+0005.275 (R) [notice] Atomic restore: dropping original table (wp_e_submissions_actions_log)
+0005.276 (R) [notice] Atomic restore: renaming new table (d8_e_submissions_actions_log) to final table name (wp_e_submissions_actions_log)
+0005.302 (R) [notice] Search and replacing table: wp_e_submissions_actions_log: rows: 0
+0005.302 (R) [notice] Processing table (InnoDB):  hpfc_e_submissions_values - will restore as: d8_e_submissions_values
+0005.325 (R) [notice] Atomic restore: dropping original table (wp_e_submissions_values)
+0005.326 (R) [notice] Atomic restore: renaming new table (d8_e_submissions_values) to final table name (wp_e_submissions_values)
+0005.354 (R) [notice] Search and replacing table: wp_e_submissions_values: rows: 0
+0005.354 (R) [notice] Processing table (InnoDB):  hpfc_frm_fields - will restore as: d8_frm_fields
+0005.384 (R) [notice] Atomic restore: dropping original table (wp_frm_fields)
+0005.385 (R) [notice] Atomic restore: renaming new table (d8_frm_fields) to final table name (wp_frm_fields)
+0005.406 (R) [notice] Search and replacing table: wp_frm_fields: rows: 14
+0005.408 (R) [notice] Processing table (InnoDB):  hpfc_frm_forms - will restore as: d8_frm_forms
+0005.436 (R) [notice] Atomic restore: dropping original table (wp_frm_forms)
+0005.436 (R) [notice] Atomic restore: renaming new table (d8_frm_forms) to final table name (wp_frm_forms)
+0005.458 (R) [notice] Search and replacing table: wp_frm_forms: rows: 3
+0005.459 (R) [notice] Processing table (InnoDB):  hpfc_frm_item_metas - will restore as: d8_frm_item_metas
+0005.485 (R) [notice] Atomic restore: dropping original table (wp_frm_item_metas)
+0005.486 (R) [notice] Database queries processed: 100 in 5.39 seconds
+0005.486 (R) [notice] Atomic restore: renaming new table (d8_frm_item_metas) to final table name (wp_frm_item_metas)
+0005.507 (R) [notice] Search and replacing table: wp_frm_item_metas: rows: 0
+0005.507 (R) [notice] Processing table (InnoDB):  hpfc_frm_items - will restore as: d8_frm_items
+0005.536 (R) [notice] Atomic restore: dropping original table (wp_frm_items)
+0005.537 (R) [notice] Atomic restore: renaming new table (d8_frm_items) to final table name (wp_frm_items)
+0005.559 (R) [notice] Search and replacing table: wp_frm_items: rows: 0
+0005.559 (R) [notice] Processing table (InnoDB):  hpfc_wpforms_logs - will restore as: d8_wpforms_logs
+0005.569 (R) [notice] Atomic restore: dropping original table (wp_wpforms_logs)
+0005.570 (R) [notice] Atomic restore: renaming new table (d8_wpforms_logs) to final table name (wp_wpforms_logs)
+0005.590 (R) [notice] Search and replacing table: wp_wpforms_logs: rows: 0
+0005.591 (R) [notice] Processing table (InnoDB):  hpfc_wpforms_payment_meta - will restore as: d8_wpforms_payment_meta
+0005.620 (R) [notice] Atomic restore: dropping original table (wp_wpforms_payment_meta)
+0005.621 (R) [notice] Atomic restore: renaming new table (d8_wpforms_payment_meta) to final table name (wp_wpforms_payment_meta)
+0005.644 (R) [notice] Search and replacing table: wp_wpforms_payment_meta: rows: 0
+0005.644 (R) [notice] Processing table (InnoDB):  hpfc_wpforms_payments - will restore as: d8_wpforms_payments
+0005.676 (R) [notice] Atomic restore: dropping original table (wp_wpforms_payments)
+0005.677 (R) [notice] Atomic restore: renaming new table (d8_wpforms_payments) to final table name (wp_wpforms_payments)
+0005.701 (R) [notice] Search and replacing table: wp_wpforms_payments: rows: 0
+0005.702 (R) [notice] Processing table (InnoDB):  hpfc_wpforms_tasks_meta - will restore as: d8_wpforms_tasks_meta
+0005.714 (R) [notice] Disabling Maintenance mode&#8230;
+0005.715 (R) [notice] Atomic restore: dropping original table (wp_wpforms_tasks_meta)
+0005.716 (R) [notice] Atomic restore: renaming new table (d8_wpforms_tasks_meta) to final table name (wp_wpforms_tasks_meta)
+0005.737 (R) [notice] Search and replacing table: wp_wpforms_tasks_meta: rows: 9
+0005.738 (R) [notice] Finished: lines processed: 113 in 5.64 seconds
+0005.739 (R) [notice] Cleaning up rubbish...
+0005.741 (R) [notice] Database search and replace: replace https://ucchvas.mnm-staging.com in backup dump with http://localhost/assign
+0005.741 (R) [notice] Database search and replace: replace http://www.ucchvas.mnm-staging.com in backup dump with http://localhost/assign
+0005.741 (R) [notice] Database search and replace: replace http://ucchvas.mnm-staging.com in backup dump with http://localhost/assign
+0005.741 (R) [notice] Database search and replace: replace https://www.ucchvas.mnm-staging.com in backup dump with http://localhost/assign
+0005.742 (R) [notice] Database search and replace: replace /home/k82f5f370hle/public_html/ucchvas.mnm-staging.com in backup dump with C:\xampp\htdocs\assign
+0005.743 (R) [notice] Search and replacing table: wp_actionscheduler_actions: already done
+0005.743 (R) [notice] Search and replacing table: wp_actionscheduler_claims: already done
+0005.743 (R) [notice] Search and replacing table: wp_actionscheduler_groups: already done
+0005.743 (R) [notice] Search and replacing table: wp_actionscheduler_logs: already done
+0005.743 (R) [notice] Search and replacing table: wp_commentmeta: already done
+0005.744 (R) [notice] Search and replacing table: wp_comments: already done
+0005.744 (R) [notice] Search and replacing table: wp_e_events: already done
+0005.744 (R) [notice] Search and replacing table: wp_e_submissions: already done
+0005.744 (R) [notice] Search and replacing table: wp_e_submissions_actions_log: already done
+0005.744 (R) [notice] Search and replacing table: wp_e_submissions_values: already done
+0005.744 (R) [notice] Search and replacing table: wp_frm_fields: already done
+0005.745 (R) [notice] Search and replacing table: wp_frm_forms: already done
+0005.745 (R) [notice] Search and replacing table: wp_frm_item_metas: already done
+0005.746 (R) [notice] Search and replacing table: wp_frm_items: already done
+0005.746 (R) [notice] Search and replacing table: wp_links: already done
+0005.747 (R) [notice] Search and replacing table: wp_options: already done
+0005.747 (R) [notice] Search and replacing table: wp_postmeta: already done
+0005.747 (R) [notice] Search and replacing table: wp_posts: already done
+0005.747 (R) [notice] Search and replacing table: wp_term_relationships: already done
+0005.748 (R) [notice] Search and replacing table: wp_term_taxonomy: already done
+0005.748 (R) [notice] Search and replacing table: wp_termmeta: already done
+0005.748 (R) [notice] Search and replacing table: wp_terms: already done
+0005.748 (R) [notice] Search and replacing table: wp_usermeta: already done
+0005.748 (R) [notice] Search and replacing table: wp_users: already done
+0005.748 (R) [notice] Search and replacing table: wp_wpforms_logs: already done
+0005.748 (R) [notice] Search and replacing table: wp_wpforms_payment_meta: already done
+0005.749 (R) [notice] Search and replacing table: wp_wpforms_payments: already done
+0005.749 (R) [notice] Search and replacing table: wp_wpforms_tasks_meta: already done
+0005.749 (R) [notice] Tables examined: 27
+0005.749 (R) [notice] Rows examined: 1709
+0005.749 (R) [notice] Changes made: 704
+0005.750 (R) [notice] SQL update commands run: 704
+0005.750 (R) [notice] Errors: 0
+0005.750 (R) [notice] Time taken (seconds): 3.169
+0005.774 (R) [notice] Unpacking backup... (backup_2025-01-08-0735_Ucchvas_c61273b8d9d9-mu-plugins.zip, 0 MB)
+0005.790 (R) [notice] Unzip progress: 2 out of 2 files (983 B, mu-plugins/automation-by-installatron.php)
+0005.792 (R) [notice] Moving old data out of the way...
+0005.792 (R) [notice] Moving unpacked backup into place...
+0005.796 (R) [notice] Cleaning up rubbish...
+0005.803 (R) [notice] Unpacking backup... (backup_2025-01-08-0735_Ucchvas_c61273b8d9d9-plugins.zip, 44.3 MB)
+0007.485 (R) [notice] Unzip progress: 1355 out of 7219 files (1.5 KB, plugins/elementor-pro/assets/css/modules/notes/frontend.css)
+0013.058 (R) [notice] Unzip progress: 2356 out of 7219 files (24.4 MB, plugins/elementor/assets/lib/animations/styles/bounce.css)
+0026.177 (R) [notice] Unzip progress: 3357 out of 7219 files (41.9 MB, plugins/elementor/assets/js/ai-admin.min.js)
+0036.165 (R) [notice] Unzip progress: 4358 out of 7219 files (69.9 MB, plugins/elementor/core/admin/menu/interfaces/admin-menu-item-with-page.php)
+0047.471 (R) [notice] Unzip progress: 5359 out of 7219 files (101.3 MB, plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Batch/composer.json)
+0057.519 (R) [notice] Unzip progress: 6360 out of 7219 files (121.2 MB, plugins/sina-extension-for-elementor/widgets/basic/sina-visit-counter.php)
+0068.268 (R) [notice] Unzip progress: 7219 out of 7219 files (140.2 MB, plugins/bdthemes-prime-slider-lite/assets/css/ps-flogia.rtl.css)
+0068.277 (R) [notice] Moving old data out of the way...
+0069.709 (R) [notice] Moving unpacked backup into place...
+0076.251 (R) [notice] Cleaning up rubbish...
+0076.259 (R) [notice] Disabled this plugin: WP Fastest Cache: re-activate it manually when you are ready.
+0076.298 (R) [notice] Unpacking backup... (backup_2025-01-08-0735_Ucchvas_c61273b8d9d9-themes.zip, 14.6 MB)
+0081.613 (R) [notice] Unzip progress: 1002 out of 1885 files (25.7 MB, themes/Divi/js/smoothscroll.js.LICENSE.txt)
+0091.949 (R) [notice] Unzip progress: 1885 out of 1885 files (50.8 MB, themes/oceanwp/partials/none.php)
+0091.956 (R) [notice] Moving old data out of the way...
+0093.304 (R) [notice] Moving unpacked backup into place...
+0095.748 (R) [notice] Cleaning up rubbish...
+0095.781 (R) [notice] Unpacking backup... (backup_2025-01-08-0735_Ucchvas_c61273b8d9d9-uploads.zip, 26.4 MB)
+0097.328 (R) [notice] Unzip progress: 188 out of 188 files (32.1 MB, uploads/2024/12/shutterstock_2274472679-768x324.png)
+0097.335 (R) [notice] Moving old data out of the way...
+0097.347 (R) [notice] Moving unpacked backup into place...
+0097.461 (R) [notice] Cleaning up rubbish...
+0097.476 (R) [notice] Unpacking backup... (backup_2025-01-08-0735_Ucchvas_c61273b8d9d9-others.zip, 1.4 MB)
+0097.568 (R) [notice] Unzip progress: 17 out of 17 files (4.7 MB, index.php)
+0097.595 (R) [notice] Cleaning up rubbish...
+0097.753 (R) [notice] Restore successful!
